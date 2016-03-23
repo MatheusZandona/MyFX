@@ -11,6 +11,7 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
+			
 			GridPane root = (GridPane)FXMLLoader.load(getClass().getResource("TelaPrincipal.fxml"));  // instancia o objeto com as configuracoes do fxml
 			Scene scene = new Scene(root,400,400);  // oq vai aparecer na tela.
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm()); //na tela vc instancia o arquivo css
